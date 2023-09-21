@@ -1,7 +1,16 @@
 #!/bin/bash
+
 echo "Performing DNF Update"
-dnf update -y
+sudo dnf update -y
+echo "DNF Update Complete"
+
 echo "Performing Flatpak Update"
 flatpak update -y
+echo "Flatpak Update Complete"
+
 echo "Performing Snap Update"
-snap refresh
+sudo snap refresh
+echo "Snap Update Complete"
+
+exit 0
+
