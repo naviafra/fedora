@@ -1,4 +1,3 @@
-  GNU nano 7.2                                                                                                                       dfx                                                                                                                                  
 #!/bin/bash
 # If using fish shell change the above to /usr/bin/fish and if using bash change to /bin/bash
 
