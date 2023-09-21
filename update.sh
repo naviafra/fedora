@@ -1,4 +1,6 @@
 #!/bin/bash
+# If using fish shell change the above to /usr/bin/fish
+
 
 echo "Performing DNF Update"
 sudo dnf update -y
@@ -13,4 +15,5 @@ sudo snap refresh
 echo "Snap Update Complete"
 
 exit 0
+
 
