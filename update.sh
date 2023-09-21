@@ -1,17 +1,17 @@
-#!/bin/bash
+#!/usr/bin/fish
 # If using fish shell change the above to /usr/bin/fish and if using bash change to /bin/bash
 
 
-echo "Performing DNF Update"
+echo -e "Performing DNF Update \n"
 sudo dnf update -y
-echo "DNF Update Complete"
+echo -e "DNF Update Complete \n"
 
-echo "Performing Flatpak Update"
+echo -e "Performing Flatpak Update \n"
 flatpak update -y
-echo "Flatpak Update Complete"
+echo -e "Flatpak Update Complete \n"
 
-echo "Performing Snap Update"
+echo -e "Performing Snap Update \n"
 sudo snap refresh
-echo "Snap Update Complete"
+echo -e "Snap Update Complete \n"
 
 exit 0
